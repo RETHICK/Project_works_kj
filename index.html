@@ -6,6 +6,9 @@
     <title>RETHICK KUMAR KJ Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         body {
             margin: 0;
             font-family: 'Poppins', sans-serif;
@@ -38,8 +41,26 @@
         h2 {
             color: #4e54c8;
         }
-        .contact, .skills, .education, .certificates, .projects {
-            margin-bottom: 3rem;
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 0.5rem 0;
+        }
+        .contact a, .resume-btn {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.7rem 1.5rem;
+            background: #4e54c8;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .contact a:hover, .resume-btn:hover {
+            background: #6c70e0;
         }
         footer {
             text-align: center;
@@ -48,12 +69,10 @@
             color: white;
             font-size: 0.9rem;
         }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin: 0.5rem 0;
+        .certificates img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
         }
     </style>
 </head>
@@ -62,7 +81,14 @@
 <header>
     <h1>RETHICK KUMAR KJ</h1>
     <p>Email: kjrethickkumar@gmail.com | Phone: +91-9361287449 | Madurai, India</p>
+    <a href="#contact" class="resume-btn">Contact Me</a>
+    <a href="RETHICK_resume_1.pdf" class="resume-btn" download>Download Resume</a>
 </header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>I am a highly motivated Computer Science Engineering student passionate about IoT, Software Development, and AI Technology. I love building practical tech solutions and enjoy video editing as a creative outlet. Constantly learning, improving, and aiming to contribute impactful innovations to the world.</p>
+</section>
 
 <section class="projects">
     <h2>Projects</h2>
@@ -85,12 +111,11 @@
 
 <section class="certificates">
     <h2>Certificates</h2>
-  
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-        <img src="certificate1.jpg" alt="Certificate 1" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
-        <img src="certificate2.jpg" alt="Certificate 2" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
-        <img src="certificate3.jpg" alt="Certificate 3" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
-        <img src="certificate4.jpg" alt="Certificate 4" style="width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+        <img src="certificate1.jpg" alt="Certificate 1">
+        <img src="certificate2.jpg" alt="Certificate 2">
+        <img src="certificate3.jpg" alt="Certificate 3">
+        <img src="certificate4.jpg" alt="Certificate 4">
     </div>
 </section>
 
@@ -101,6 +126,12 @@
         <li><strong>Diploma in Computer Engineering</strong> - K.L. Nagaswamy Polytechnic College, Madurai (92%)</li>
         <li><strong>SSLC</strong> - Tagore Vidyalayam Matriculation Higher Secondary School (49%)</li>
     </ul>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <a href="mailto:kjrethickkumar@gmail.com">Send Email</a>
+    <a href="www.linkedin.com/in/rethick-kumar-kj-091883264" target="_blank">LinkedIn Profile</a>
 </section>
 
 <footer>
