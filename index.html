@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,7 +74,18 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.3);
         }
-     
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        .video-container video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
 
     </style>
 </head>
@@ -100,6 +110,16 @@
         <li><strong>Eco-Aware Railway System with Sensor Accident Prevention (IoT)</strong> - Wildlife protection and obstacle detection using Raspberry Pi and Lidar.</li>
         <li><strong>WAKESENSE Portable IoT-Based Anti-Drowsiness System</strong> - Real-time driver monitoring and alert system using AI and IoT.</li>
     </ul>
+</section>
+
+<section class="video-section">
+    <h2>My App Development</h2>
+    <div class="video-container">
+        <video controls autoplay muted loop>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 </section>
 
 <section class="skills">
@@ -139,7 +159,7 @@
 </section>
 
 <footer>
-    
+    <p>&copy; 2024 Rethick Kumar KJ. All rights reserved.</p>
 </footer>
 
 </body>
