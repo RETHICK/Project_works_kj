@@ -1,186 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RETHICK KUMAR KJ Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        body {
-            margin: 0;
-            
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(to right, #f200ff, #5900ff);
-            color: #333;
-        }
-        header {
-            background: linear-gradient(to right, #f200ff,#000000, #5900ff);
-            color: white;
-            padding: 2rem;
-            text-align: center;
-            animation: slideIn 1s ease-out;
-        }
-        @keyframes slideIn {
-            from { transform: translateY(-100%); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-        section {
-            padding: 2rem;
-            margin: 2rem;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-            animation: fadeIn 2s ease-in;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        h2 {
-            color: #e00096;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin: 0.5rem 0;
-        }
-        .contact a, .resume-btn {
-            display: inline-block;
-            margin: 0.5rem;
-            padding: 0.7rem 1.5rem;
-            background: #e00096;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-        .contact a:hover, .resume-btn:hover {
-            background: #e00096;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: linear-gradient(to right, #f200ff,#000000, #5900ff);
-            color: white;
-            font-size: 0.9rem;
-        }
-        .certification img {
-            width: 300px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-        }
-        .video-container {
-            display: flex;
-            justify-content: center;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-        }
-        .video-container video {
-            max-width: 100%;
-            height: auto;
-            border-radius: 15px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETHICK KUMAR KJ Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #f200ff, #5900ff);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #f200ff,#000000, #5900ff);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            animation: slideIn 1s ease-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        section {
+            padding: 2rem;
+            margin: 2rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            animation: fadeIn 2s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h2 {
+            color: #e00096;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 0.5rem 0;
+        }
+        .contact a, .resume-btn {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.7rem 1.5rem;
+            background: #e00096;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .contact a:hover, .resume-btn:hover {
+            background: #e00096;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: linear-gradient(to right, #f200ff,#000000, #5900ff);
+            color: white;
+            font-size: 0.9rem;
+        }
+        .certification img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        .video-container video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
 
-    </style>
+    </style>
 </head>
 <body>
 
 <header>
-    <h1>RETHICK KUMAR KJ</h1>
-    <p>Email: kjrethickkumar@gmail.com | Phone: +91-9361287449 | Madurai, India</p>
-    <a href="#contact" class="resume-btn">Contact Me</a>
-    <a href="RETHICK_resume_1.pdf" class="resume-btn" download>Download Resume</a>
+    <h1>RETHICK KUMAR KJ</h1>
+    <p>Email: kjrethickkumar@gmail.com | Phone: +91-9361287449 | Madurai, India</p>
+    <a href="#contact" class="resume-btn">Contact Me</a>
+    <a href="RETHICK_resume_1.pdf" class="resume-btn" download>Download Resume</a>
 </header>
 
 <section class="about">
-    <h2>About Me</h2>
-    <p>A highly motivated and adaptable professional seeking to contribute to a reputable organization in a challenging role. Innovative and technically proficient, I bring a versatile skill set that enables me to tackle diverse tasks and deliver impactful solutions. Team-oriented and committed to continuous learning, I am strong in AI prompting and app development, utilizing tools like Cursor AI and other LLMs to build applications. I aim to work on strategic initiatives that help drive the company’s success.</p>
+    <h2>About Me</h2>
+    <p>A highly motivated and adaptable professional seeking to contribute to a reputable organization in a challenging role. Innovative and technically proficient, I bring a versatile skill set that enables me to tackle diverse tasks and deliver impactful solutions. Team-oriented and committed to continuous learning, I am strong in AI prompting and app development, utilizing tools like Cursor AI and other LLMs to build applications. I aim to work on strategic initiatives that help drive the company’s success.</p>
 </section>
 
 <section class="projects">
-    <h2>Projects</h2>
-    <ul>
-        <li><strong>Automated Density Based Traffic Control System (IoT)</strong> - Intelligent traffic management with real-time sensing and emergency prioritization.</li>
-        <li><strong>Eco-Aware Railway System with Sensor Accident Prevention (IoT)</strong> - Wildlife protection and obstacle detection using Raspberry Pi and Lidar.</li>
-        <li><strong>WAKESENSE Portable IoT-Based Anti-Drowsiness System</strong> - Real-time driver monitoring and alert system using AI and IoT.</li>
-    </ul>
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Automated Density Based Traffic Control System (IoT)</strong> - Intelligent traffic management with real-time sensing and emergency prioritization.</li>
+        <li><strong>Eco-Aware Railway System with Sensor Accident Prevention (IoT)</strong> - Wildlife protection and obstacle detection using Raspberry Pi and Lidar.</li>
+        <li><strong>WAKESENSE Portable IoT-Based Anti-Drowsiness System</strong> - Real-time driver monitoring and alert system using AI and IoT.</li>
+    </ul>
 </section>
 
 <section class="video-section">
-    <h2>My App Development</h2>
-    <div class="video-container">
-        <video controls autoplay muted loop>
-            <source src="video1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+    <h2>My App Development</h2>
+    <div class="video-container">
+        <video controls autoplay muted loop>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 </section>
 
 <section class="video-section">
-    <h2>Automated Density Based Traffic Control System Demo</h2>
-    <div class="video-container">
-        <video controls autoplay muted loop>
-            <source src="video2.mp4" type="video/mp4">
-            Your browser does not not support the video tag.
-        </video>
-    </div>
+    <h2>Automated Density Based Traffic Control System Demo</h2>
+    <div class="video-container">
+        <video controls autoplay muted loop>
+            <source src="video2.mp4" type="video/mp4">
+            Your browser does not not support the video tag.
+        </video>
+    </div>
 </section>
-    
+    
 <section class="video-section">
-    <h2>WAKESENSE Portable IoT-Based Anti-Drowsiness System</h2>
-    <div class="video-container">
-        <video controls autoplay muted loop>
-            <source src="video3.mp4" type="video/mp4">
-            Your browser does not not support the video tag.
-        </video>
-    </div>
+    <h2>WAKESENSE Portable IoT-Based Anti-Drowsiness System</h2>
+    <div class="video-container">
+        <video controls autoplay muted loop>
+            <source src="video3.mp4" type="video/mp4">
+            Your browser does not not support the video tag.
+        </video>
+    </div>
 </section>
 <section class="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>C, Java Programming</li>
-        <li>HTML, CSS</li>
-        <li>MySQL Database</li>
-        <li>Capcut, Premiere pro</li>
-    </ul>
+    <h2>Skills</h2>
+    <ul>
+        <li>C, Java Programming</li>
+        <li>HTML, CSS</li>
+        <li>MySQL Database</li>
+        <li>Capcut, Premiere pro</li>
+    </ul>
 </section>
 
 <section class="certification">
-    <h2>Certification</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-        <img src="certificate1.jpg" alt="Certificate 1">
-        <img src="certificate2.jpg" alt="Certificate 2">
-        <img src="certificate3.jpg" alt="Certificate 3">
-        <img src="certificate4.jpg" alt="Certificate 4">
-    </div>
+    <h2>Certification</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+        <img src="certificate1.jpg" alt="Certificate 1">
+        <img src="certificate2.jpg" alt="Certificate 2">
+        <img src="certificate3.jpg" alt="Certificate 3">
+        <img src="certificate4.jpg" alt="Certificate 4">
+    </div>
 </section>
 
 <section class="education">
-    <h2>Education</h2>
-    <ul>
-        <li><strong>B.E. Computer Science and Engineering</strong> - K.L.N. College of Engineering, Madurai (7.1 CGPA)</li>
-        <li><strong>Diploma in Computer Engineering</strong> - K.L. Nagaswamy Polytechnic College, Madurai (92%)</li>
-        
-    </ul>
+    <h2>Education</h2>
+    <ul>
+        <li><strong>B.E. Computer Science and Engineering</strong> - K.L.N. College of Engineering, Madurai (7.1 CGPA)</li>
+        <li><strong>Diploma in Computer Engineering</strong> - K.L. Nagaswamy Polytechnic College, Madurai (92%)</li>
+        
+    </ul>
 </section>
 
 <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <a href="mailto:kjrethickkumar@gmail.com">Send Email</a>
-    <a href="https://www.linkedin.com/in/rethick-kumar-kj-091883264" target="_blank">LinkedIn Profile</a>
- 
+    <h2>Contact</h2>
+    <a href="mailto:kjrethickkumar@gmail.com">Send Email</a>
+    <a href="https://www.linkedin.com/in/rethick-kumar-kj-091883264" target="_blank">LinkedIn Profile</a>
+ 
 </section>
 
 <footer>
-    <p>&copy; 2025 Rethick Kumar KJ. All rights reserved.</p>
+    <p>&copy; 2025 Rethick Kumar KJ. All rights reserved.</p>
 </footer>
+
+<script>
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+</script>
 
 </body>
 </html>
